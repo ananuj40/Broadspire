@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/broadspire_logo"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/prescription"
+        android:textSize="15dp"
+        android:layout_marginLeft="4dp"
+        />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Patients Name:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="John Test"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Date of Injury:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="02/27/2014"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Claim#:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="24678"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Employer:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="ABC Company"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Body Part:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="Elbow"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="State of Juridiction:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="NJ"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Card Created On:February 27,2014"
+    android:textColor="#000000"
+    android:gravity="center"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Valid for Date of Injury and Body Part Only"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>

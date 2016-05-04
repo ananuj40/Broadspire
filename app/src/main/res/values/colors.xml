@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007a41</color>
+    <color name="colorPrimaryDark">#007a41</color>
+    <color name="colorAccent">#2da762</color>
+
+    <color name="colorPrimaryLight">#91dc51</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="titlebgcolor">#007a41</color>
+
+    <color name="mainLayout">#efefef</color>
+    <color name="cardLayout">#fafafa</color>
+    <color name="transparent">#0fff</color>
+    <color name="white">#fff</color>
+    <color name="gray">#333</color>
+    <color name="gray_light">#dfdfdf</color>
+</resources>

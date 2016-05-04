@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/broadspire_logo"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/pharmacyinfo"
+        android:textSize="15dp"
+        android:layout_marginLeft="4dp"
+        />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Patients Name:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="John Test"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Bin:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="010876"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="PCN:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="A4"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Group #:"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center|left"
+                android:text="BROADSPIRE"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/forminfo"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Target Pharmacy"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center"
+                android:text="Surf City Pharmacy Inc"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+            <TextView
+
+                android:gravity="center|right"
+                android:text="Rx Helpdesk:18669621359"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_marginRight="4dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+        <TableRow
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="CVS Pharmacy"
+            android:textSize="14dp"
+            android:gravity="left"
+            android:layout_marginLeft="4dp"
+            android:textColor="#000000"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_column="0" />
+        <TextView
+
+            android:gravity="center"
+            android:text="Medicap Pharmacy"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="1" />
+        <TextView
+
+            android:gravity="center|right"
+            android:text=""
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_column="2" />
+
+    </TableRow>
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Jersey Shore Pharmacy"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center"
+                android:text="Medicines to go Pharmacy"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+            <TextView
+
+                android:gravity="center|right"
+                android:text=""
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Forked River Pharmacy"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center"
+                android:text="Kmart Pharmacy3641"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+            <TextView
+
+                android:gravity="center|right"
+                android:text=""
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:text="Rite Aid Pharmacy"
+                android:textSize="14dp"
+                android:gravity="left"
+                android:layout_marginLeft="4dp"
+                android:textColor="#000000"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_column="0" />
+            <TextView
+
+                android:gravity="center"
+                android:text="Stafford Pharmacy"
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="1" />
+            <TextView
+
+                android:gravity="center|right"
+                android:text=""
+                android:textSize="14dp"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_column="2" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pharmacybenefit"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
